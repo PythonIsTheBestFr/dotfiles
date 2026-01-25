@@ -1,3 +1,81 @@
-# dotfiles
-# dotfiles
-# dotfiles
+
+# 🚀 Modern Tmux Configuration
+
+A high-performance Tmux environment featuring **Alt + A** ($M-a$) as the primary prefix, "prefix-less" Alt navigation, and the Catppuccin theme. 
+
+Designed for speed, this setup eliminates the clunky `Ctrl + B` default and adds sane defaults inspired by `tmux-sensible`.
+
+---
+
+## 🛠 Installation
+
+### 1. Prerequisites
+Ensure you have `tmux` (version 3.1 or higher recommended) and `git` installed.
+
+### 2. Clone the Plugin Manager (TPM)
+```bash
+git clone [https://github.com/tmux-plugins/tpm](https://github.com/tmux-plugins/tpm) ~/.tmux/plugins/tpm
+
+```
+
+### 3. Deploy Configuration
+
+Create the directory and place the config file:
+
+```bash
+mkdir -p ~/.config/tmux
+# Place your config file at ~/.config/tmux/tmux.conf
+
+```
+
+### 4. Install Plugins
+
+1. Open Tmux: `tmux`
+2. Press `Alt + a` then `Shift + i` (Capital I) to install the theme and plugins.
+3. Press `Alt + a` then `r` to reload the config.
+
+---
+
+## ⌨️ Keybindings & Usage
+
+### ⚡ Prefix-less Navigation
+
+No prefix required! Just hold **Alt (Meta)** for instant movement.
+
+| Action | Shortcut |
+| --- | --- |
+| **Switch Panes** | `Alt` + `Arrow Keys` |
+| **Next Window (Tab)** | `Alt` + `Shift` + `L` |
+| **Previous Window (Tab)** | `Alt` + `Shift` + `H` |
+| **Toggle Mouse Mode** | `Alt` + `m` |
+
+### 🛠 Management (Prefix: `Alt + a`)
+
+Press `Alt + a`, release, then press the following:
+
+| Action | Key |
+| --- | --- |
+| **Split Vertical** | ` |
+| **Split Horizontal** | `-` |
+| **New Window** | `c` |
+| **Kill Pane** | `x` |
+| **Reload Config** | `r` |
+| **Save Session** | `Ctrl + s` |
+| **Restore Session** | `Ctrl + r` |
+
+---
+
+## ✨ Features
+
+* **Zero Escape-Time:** Optimized for Vim/Neovim users (no mode-switching lag).
+* **Auto-Renumbering:** Windows automatically reorder themselves when one is closed.
+* **Persistence:** Uses `tmux-resurrect` to keep your workspace alive after a reboot.
+* **Modern UI:** Powered by the Catppuccin Mocha theme for a clean, readable interface.
+
+---
+
+## 📝 Configuration Note
+
+The configuration file is located at `~/.config/tmux/tmux.conf`. If you are using an older version of Tmux (< 3.1), you may need to move the file to `~/.tmux.conf`.
+
+```
