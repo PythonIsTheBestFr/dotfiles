@@ -77,5 +77,3 @@ Press `Alt + a`, release, then press the following:
 ## 📝 Configuration Note
 
 The configuration file is located at `~/.config/tmux/tmux.conf`. If you are using an older version of Tmux (< 3.1), you may need to move the file to `~/.tmux.conf`.
-
-```
