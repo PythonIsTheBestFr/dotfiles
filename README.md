@@ -1,7 +1,7 @@
 
 # 🚀 Modern Tmux Configuration
 
-A high-performance Tmux environment featuring **Alt + A** ($M-a$) as the primary prefix, "prefix-less" Alt navigation, and the Catppuccin theme. 
+A high-performance Tmux environment featuring **Ctrl + Space** ($C-Space$) as the primary prefix, "prefix-less" Alt navigation, and the Catppuccin theme. 
 
 Designed for speed, this setup eliminates the clunky `Ctrl + B` default and adds sane defaults inspired by `tmux-sensible`.
 
@@ -14,7 +14,7 @@ Ensure you have `tmux` (version 3.1 or higher recommended) and `git` installed.
 
 ### 2. Clone the Plugin Manager (TPM)
 ```bash
-git clone [https://github.com/tmux-plugins/tpm](https://github.com/tmux-plugins/tpm) ~/.tmux/plugins/tpm
+git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
 
 ```
 
@@ -31,8 +31,8 @@ mkdir -p ~/.config/tmux
 ### 4. Install Plugins
 
 1. Open Tmux: `tmux`
-2. Press `Alt + a` then `Shift + i` (Capital I) to install the theme and plugins.
-3. Press `Alt + a` then `r` to reload the config.
+2. Press `Ctrl + Space` then `Shift + i` (Capital I) to install the theme and plugins.
+3. Press `Ctrl + Space` then `r` to reload the config.
 
 ---
 
@@ -49,19 +49,19 @@ No prefix required! Just hold **Alt (Meta)** for instant movement.
 | **Previous Window (Tab)** | `Alt` + `Shift` + `H` |
 | **Toggle Mouse Mode** | `Alt` + `m` |
 
-### 🛠 Management (Prefix: `Alt + a`)
+### 🛠 Management (Prefix: `Ctrl + Space`)
 
-Press `Alt + a`, release, then press the following:
+Press `Ctrl + Space`, release, then press the following:
 
 | Action | Key |
 | --- | --- |
-| **Split Vertical** | ` |
+| **Split Vertical** | `\` |
 | **Split Horizontal** | `-` |
 | **New Window** | `c` |
 | **Kill Pane** | `x` |
 | **Reload Config** | `r` |
-| **Save Session** | `Ctrl + s` |
-| **Restore Session** | `Ctrl + r` |
+| **Save Session** | `s` |
+| **Restore Session** | `r` |
 
 ---
 
