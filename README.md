@@ -44,9 +44,9 @@ No prefix required! Just hold **Alt (Meta)** for instant movement.
 
 | Action | Shortcut |
 | --- | --- |
-| **Switch Panes** | `Alt` + `Arrow Keys` |
-| **Next Window (Tab)** | `Alt` + `Shift` + `L` |
-| **Previous Window (Tab)** | `Alt` + `Shift` + `H` |
+| **Switch Panes** | `Alt` + `W A S D` |
+| **Next Window (Tab)** | `Alt` + `c` |
+| **Previous Window (Tab)** | `Alt` + `z` |
 | **Toggle Mouse Mode** | `Alt` + `m` |
 
 ### 🛠 Management (Prefix: `Ctrl + Space`)
@@ -57,7 +57,7 @@ Press `Ctrl + Space`, release, then press the following:
 | --- | --- |
 | **Split Vertical** | `\` |
 | **Split Horizontal** | `-` |
-| **New Window** | `c` |
+| **New Window** | `v` |
 | **Kill Pane** | `x` |
 | **Reload Config** | `r` |
 | **Save Session** | `s` |
