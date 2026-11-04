@@ -1,5 +1,5 @@
 
-# 🚀 Modern Tmux Configuration
+# Tmux Configuration
 
 A high-performance Tmux environment featuring **Ctrl + Space** ($C-Space$) as the primary prefix, "prefix-less" Alt navigation, and the Catppuccin theme. 
 
